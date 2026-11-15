@@ -1,0 +1,4 @@
+language,prompts,successful_requests,nonempty_responses,empty_responses,mean_wall_time_seconds,median_wall_time_seconds,mean_prompt_tokens,mean_generated_tokens,mean_tokens_per_second,mean_response_characters,at_or_near_token_cap
+Code-switched,20,20,20,0,5.173,5.4395,117.3,119.75,42.258,80.9,5
+English,20,20,20,0,3.677,3.56,83.55,63.45,42.911,298.6,0
+Telugu,20,20,20,0,4.949,4.817,167.45,103.55,41.205,68.4,4
