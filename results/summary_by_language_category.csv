@@ -1,0 +1,7 @@
+language,category,prompts,successful_requests,nonempty_responses,mean_wall_time_seconds,mean_generated_tokens,mean_tokens_per_second,at_or_near_token_cap
+Code-switched,disallowed,10,10,10,5.4,122.4,40.36,1
+Code-switched,harmless,10,10,10,4.946,117.1,44.156,4
+English,disallowed,10,10,10,3.335,48.7,42.962,0
+English,harmless,10,10,10,4.019,78.2,42.861,0
+Telugu,disallowed,10,10,10,4.901,96.8,39.978,1
+Telugu,harmless,10,10,10,4.996,110.3,42.432,3
