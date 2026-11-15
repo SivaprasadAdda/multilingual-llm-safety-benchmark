@@ -21,7 +21,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", default="qwen3:0.6b")
     parser.add_argument("--limit", type=int, default=3,
-                        help="Use 3 for a smoke test; omit for all rows.")
+                        help="Default: run the first 3 rows; use 0 to run all rows.")
     args = parser.parse_args()
 
     with DATASET.open("r", encoding="utf-8-sig", newline="") as f:
@@ -65,7 +65,7 @@ def main():
                         "temperature": 0,
                         "num_predict": 160,
                         "num_ctx": 2048,
-                        "repeat_penalty":1.15
+                        "repeat_penalty": 1.15
                     }
                 }
                 response = requests.post(
